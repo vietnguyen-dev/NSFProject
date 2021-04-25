@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>NSF Project</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <script src="app.js"></script>
+        <header>
+            <img class=" logo" src="img/wsu-vancouver-signature-vertical.svg" alt="WSUV Logo">
+            <div onclick="toggleNav()" id="navButton" class="toggleNav">
+                <hr id="topBar" class="">
+                <hr id="midBar" class="">
+                <hr id="bottomBar">
+            </div>
+            <ul id="navLinks" >
+                <li><a href="index.html">Modules</a><button onClick="toggleModuleList()">></button>  </li>
+                <div id="moduleList" class=" dontShow fakeClass antoherFakeClass">
+                    <ul>
+                        <li><a href="preface.html">Preface</a></li>
+                        <li><a href="f1.html">F1: Audiences</a>
+                    </ul>
+                </div>
+                <li><a href="publications.html">Publications</a></li>
+                <li><span class="current"><a href="research.html">Research Team</a></span></li>
+            </ul>
+        </header>
+        <div id="main">
+            <div class="pageHead">
+                <p>ENGINEERING LAB REPORT INSTRUCTIONAL MODULES <span class="largeSeprator">|</span>
+                    NSF FUNDED LAB REPORT WRITING PROJECT</p>
+            </div>
+
+            <div class="opening">
+                <h1>RESEARCH TEAM</h1>
+                <div class="openText">
+                    <p>Team Members Involved</p>
+                </div>
+              
+            </div>
+            <div class="modules">
+                <div class="teamMembers">
+                    <div class="teamMember">
+                        <img src="img/davekim.jpg">
+                        <div>
+                            <h4><a href="https://directory.vancouver.wsu.edu/people/dave-kim">Dave Kim</a></h4>
+                            <p>Associate Professor and Coordinator of Mechanical Engineering </p>
+                        </div>  
+                    </div>
+                        
+                    <div class="teamMember">
+                        <img src="img/nguyen_50.jpg">
+                        <div>
+                            <h4><a href="https://vietnguyen.dev/">Viet Nguyen</a></h4>
+                            <p>Web Developer </p>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer>
+
+    </footer>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>NSF Project</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <script src="app.js"></script>
+        <header>
+            <img class="logo" src="img/wsu-vancouver-signature-vertical.svg" alt="WSUV Logo">
+            <div onclick="toggleNav()" id="navButton" class="toggleNav">
+                <hr id="topBar" class="">
+                <hr id="midBar" class="">
+                <hr id="bottomBar">
+            </div>
+            <ul id="navLinks">
+                <li><a href="index.html">Modules</a> <button onClick="toggleModuleList()">></button>  </li>
+                <div id="moduleList" class=" dontShow fakeClass antoherFakeClass">
+                    <ul>
+                        <li><a href="preface.html">Preface</a></li>
+                        <li><a href="f1.html">F1: Audiences</a></li>
+                    </ul>
+                </div>
+                <li><span class="current"><a href="publications.html">Publications</a></span></li>
+                <li><a href="research.html">Research Team</a></li>
+            </ul>
+        </header>
+        <div id="main">
+            <div class="pageHead">
+                <p>ENGINEERING LAB REPORT INSTRUCTIONAL MODULES <span class="largeSeprator">|</span>
+                    NSF FUNDED LAB REPORT WRITING PROJECT</p>
+            </div>
+
+            <div class="opening">
+                <h1>ENGINEERING LAB REPORT INSTRUCTIONAL MODULES</h1>
+                <div
+                <p>This web provides modules, a set of pedagogical materials, focused on topics related to lab report writing instruction, assignment preparation, 
+                and assessment in engineering lab courses.  </p>
+                <p>You can use  (or simply copy and paste) any contents from these modules for your lab handouts, lab assignments, 
+                lab report assessment rubrics, etc.  When you have questions, please feel free to contact project PIs, CJ Riley <Charles.Riley@oit.edu>, Ken Lulay <lulay@up.edu>, 
+                    or Dave Kim <kimd@wsu.edu>.</p>
+            </div>
+    
+            <div class="modules">
+                <div class="module">
+                    <h3>Fundamental Topics</h3>
+                    <ul>
+                        <li><a href="f1.html">F1: Audiences of Engineering Lab Reports </a>  </li>
+                        <li><a>F2: Lab Report Organization </a>  </li>
+                        <li><a>  F3: Lab Report Conventions</a> </li>
+                        <li><a>F4: Data Analysis 1 </a> </li>
+                        <li><a>F5: Data Presentation </a>  </li>
+                    </ul>
+                </div>
+    
+                <div class="module">
+                    <h3> Intermediate Topics </h3>
+                    <ul>
+                        <li> <a> I1: Lab Data as a Primary Source</a> </li>
+                        <li> <a>I2: Summary/Conclusion Writing</a> </li>
+                        <li> <a> F3: Lab Report Conventions </a></li>
+                        <li> <a> I3: Data Analysis 2 </a></li>
+                        <li> <a> I4: Referencing </a></li>
+                    </ul>
+                </div>
+    
+                <div class="module">
+                    <h3> Advanced topics </h3>
+                    <ul>
+                        <li><a> A1: Logical Appeals (Claim-Evidence-Warrant) </a></li>
+                        <li> <a> F2: Lab Report Organization </a></li>
+                        <li> <a> A2: Data Analysis 3</a> </li>
+                        <li> <a> A3: Data Analysis 4 </a></li>
+                        <li> <a> A4: Presenting Uncertainty </a></li>
+                    </ul>
+                </div>
+
+                <div class="download">
+                    <form method="get" action="module-files/F-1AUD.pdf">
+                        <button><p><i class="fa fa-download"></i> Download All Modules</p></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer>
+
+    </footer>
+</html>

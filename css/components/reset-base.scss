@@ -1,0 +1,190 @@
+$main-typeface: 'Open Sans', sans-serif;
+$wsu-white: white;
+$wsu-grey: #5e6a71;
+$wsu-dark-grey: #464e54;
+$wsu-red: #981e32;
+$wsu-orange: #c69214; 
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+html{
+    color: $wsu-grey;
+    font-family: $main-typeface;
+    scroll-behavior: smooth;
+}
+
+body, .teamMember{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}  
+
+.navInnerList{
+    padding-left: 20px;
+}
+
+h1{
+    border-left: 6px solid $wsu-red;
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    color: $wsu-dark-grey;
+}
+
+h3{
+    font-size: 23px;
+    letter-spacing: 1px;
+    color: $wsu-dark-grey;
+    font-weight: bold;
+    padding: 2% 2%;
+}
+
+h3 span{
+    border-bottom: 3px solid $wsu-red;
+    // text-align: center;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+hr{
+    width: 100px;
+    border-bottom: 6px solid $wsu-red;
+    margin-left: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: $wsu-grey;
+}
+
+a:after{
+    display: block;
+    border-bottom: 3px solid $wsu-red;
+    content:"";
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+a:hover:after{
+    transform: scaleX(1); 
+}
+
+p{
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+#main{
+    border-left: 1px solid rgba(94, 106, 113, .4);
+    grid-column: 2/3;
+}
+
+.download{
+    margin-bottom: 5%;
+}
+
+.download button{
+    margin-top: 3%;
+    border: none;
+    background-color: $wsu-red;
+    width: 300px;
+    border-radius: 5px;
+    padding: 2% 3%;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.download button p{ 
+    text-align: center;
+    color: $wsu-white;
+    letter-spacing: 1px;
+}
+
+.download button:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,1);
+}
+
+.current{
+    font-weight: bold;
+    color: $wsu-red;
+    border-bottom: 3px solid $wsu-red;
+}
+
+.largeSeprator{
+    font-size: 20px;
+}
+
+.dontShow{
+    display:none;
+}
+
+//mobile queries
+@media only screen and (max-width: 600px){
+    body, .teamMember{
+        display: grid;
+        grid-template-columns: 1fr;
+        // margin: 5% 7%;
+    }
+
+    header{
+        // position: sticky;
+        // top: 50px;
+        grid-template-columns: 10% 90%;
+        background-color: $wsu-white;
+    }
+    
+    header ul{
+        display: grid;
+        grid-template-columns: 1fr
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    .logo{
+        width: 70%;
+        align-items: center;
+    }
+
+    #main{
+        border-left: 1px solid rgba(94, 106, 113, .4);
+        margin-top: 20%;
+        grid-row: 1/2;
+    }
+
+    .download{
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+
+    .download button{
+        margin-top: 3%;
+        border: none;
+        background-color: $wsu-red;
+        width: 300px;
+        border-radius: 5px;
+        padding: 4% 6%;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+        transition: box-shadow 0.3s ease-in-out;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px){
+    
+}

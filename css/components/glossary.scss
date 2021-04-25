@@ -1,0 +1,34 @@
+@import "reset-base";
+
+.glossary{
+    padding: 8% 5% 3% 5%;
+}
+
+.vocabHead{
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid $wsu-red;
+}
+
+.glossary ul li{
+    padding-left: 2%;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    margin-bottom:3%;
+}
+
+.glossary ul li p{
+    width: 80%;
+}
+
+@media only screen and (max-width: 600px){
+    .glossary ul li{
+        padding-left: 2%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px){
+    
+}

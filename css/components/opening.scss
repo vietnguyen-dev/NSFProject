@@ -1,0 +1,78 @@
+@import "reset-base";
+
+.opening{
+    padding: 3% 35% 0% 5%;
+}
+
+.openText{
+    padding: 3%;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.openText h3{
+    padding-bottom: 15px;
+}
+
+.open h3{
+    padding-bottom: 15px;
+}
+
+.learningObjective{
+    padding-bottom: 25px;
+}
+
+.learningObjective p{
+    font-weight: bold;
+    padding: 2% 3%;
+    letter-spacing: .5px;
+}
+
+.learningObjective ol{
+    padding-top: 5px;
+    padding-left: 35px;
+}
+
+.learningObjective li{
+    padding-bottom: 10px;
+}
+
+.teamMember{
+    margin-bottom: 3%;
+}
+
+.teamMember img{
+    width: 50%;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px){
+    .opening{
+        padding: 1% 15% 0% 3%;
+    }
+
+    .pageHead{
+        display: none;
+    }
+
+    .openText{
+        padding: 3%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .openText img{
+        display: block;
+        margin: auto;
+    }
+
+    .engineeringImg{
+        margin-top: 10%;
+    }
+
+    
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px){
+}
