@@ -40,10 +40,20 @@
     font-weight: bold;
 }
 
+.defHeight{
+    height: 70px;
+}
+
 table{
     margin-top: 15%;
-//     border: 1px solid $wsu-dark-grey;
+    display: table;
+    width: 100%;
  }
+
+ .col {
+    display: table-cell;
+    padding: 16px;
+  }
 
 th{
     background-color: $wsu-red;

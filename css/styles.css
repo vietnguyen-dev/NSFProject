@@ -906,8 +906,19 @@ p {
   font-weight: bold;
 }
 
+.defHeight {
+  height: 70px;
+}
+
 table {
   margin-top: 15%;
+  display: table;
+  width: 100%;
+}
+
+.col {
+  display: table-cell;
+  padding: 16px;
 }
 
 th {

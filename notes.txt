@@ -1,0 +1,5 @@
+Focus on home
+- list of modules is title
+- larger space after intro preface
+
+get rid of enters on f1

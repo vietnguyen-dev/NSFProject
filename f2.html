@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>NSF Project: F1</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <script src="app.js"></script>
+        <header>
+            <img class="logo" src="img/wsu-vancouver-signature-vertical.svg" alt="WSUV Logo">
+            <div onclick="toggleNav()" id="navButton" class="toggleNav">
+                <hr id="topBar" class="">
+                <hr id="midBar" class="">
+                <hr id="bottomBar">
+            </div>
+            <ul id="navLinks">
+                <li><a href="index.html">Modules</a> <button onclick="toggleModuleList()">^</button>  </li>
+                <div id="moduleList" class="fakeClass antoherFakeClass">
+                    <ul>
+                        <li onclick="toggleNav()"><a href="preface.html">Preface</a></li>
+                        <li onclick="toggleNav()"><span class="current"><a href="f1.html">F1: Audiences</a></span></li>
+                    </ul>
+                </div>
+                <li onclick="toggleNav()"><a href="publications.html">Publications</a></li>
+                <li onclick="toggleNav()"><a href="research.html">Research Team</a></li>
+            </ul>
+            
+        </header>
+        <div id="main">
+            <div class="pageHead">
+                <p>ENGINEERING LAB REPORT INSTRUCTIONAL MODULES <span class="largeSeprator">|</span>
+                    NSF FUNDED LAB REPORT WRITING PROJECT</p>
+            </div>
+
+            <div class="opening">
+                <h1>F1: AUDIENCES OF ENGINEERING LAB REPORTS</h1>
+
+                <div class="open">
+                    <div class="download">
+                        <form method="get" action="module-files/F-1AUD.pdf">
+                            <button><p><i class="fa fa-download"></i> Download F1 Module PDF</p></button>
+                        </form>
+                    </div>
+                    <h3> <span>Learning Objectives</span> </h3>
+                    <div class="learningObjective">
+                        <p>This Module is designed to assist enginnering instructors in strengthening lab instruction materials so that students should be able to:</p>
+                        <ol>
+                            <li>Identifying the audience of engineering lab report;</li>
+                            <li>Describing the typical audience expectations from engineering lab report; and </li>
+                            <li>Describing the genre expectations (audience, writer, purpose) of typical engineering lab reports. </li>
+                        </ol>
+                    </div>
+                    <div class="learningObjective">
+                        <p>Engineering Instructurs need to:</p>
+                        <ol>
+                            <li>Inform who is the audience of the report. According to ABET outcome 3, students should able to communicate effectively with a range of audiences. 
+                                Therefore, the type of audience needs to be given to the student</li>
+                            <li>Specify the audiences’ expectations or genre expectations. Lab reports in engineering labs can be quite different than what students did in science lab
+                                or general education writing courses. It is needed to specify the audiences’ expectations in written forms such as handouts or assessment rubric.   </li>
+                        </ol>
+                    </div>
+    
+                  
+                </div>
+                
+            </div>
+    
+            <div class="questions">
+                <div class="question">
+                    <h3> <span> Who is the Audience of Engineering Lab Report?<br>What are their typical characteristics?</span></h3>
+                    <div class="questionText">
+                        <p>The lab report readers can be the report graders, including lab instructors and/or teaching assistants. However, the reports can also be read by other engineering students,
+                            engineers, and/or technicians. </p>
+                       <p>Readers of lab reports can be classified as “the technical audience” familiar with the technical material and language. The technical audience 
+                            (i.e., engineering faculty, engineers, etc.) are the decision makers, problem solvers, effective team members, and good communicators in a team setting to work with the budget
+                             and time constraints. </p>
+                    </div>
+                    
+                </div>
+
+                <div class="question">
+                    <h3><span>The Technical Audiences Expectations of Lab Reports in the Context of Engineering Lab Courses:</span></h3>
+                    <div class="questionText">
+                        <p>The technical audience expects to acquire “technical information” from lab reports so that they can use them for
+                            engineering practices such as design and testing. </p>
+                        <p>In the context of engineering lab courses, they want to learn
+                            technical knowledge through a student’s lab data presentation, analysis, and interpretation, as well as the lab’s
+                            background information such as engineering principles and processes. </p>
+                        <p>They also expect clear, concise (briefly conveying important information), error-free, and logically structured 
+                            reports with appropriate use of highquality graphics and charts.  </p>
+                    </div>
+                    
+                </div>
+    
+                <div class="question">
+                    <h3> <span>How does the engineering lab report’s organization differ from the typical freshman composition essay’s organization? </span></h3>
+                    <div class="questionText">
+                        <p>The following table shows the similarities and differences in the genre (defines the relationship of the audience–, writer, and –purpose)
+                            expectations from typical writing genres for engineering students. </p>
+                    </div>   
+                     <table>
+                        <tbody>
+                           <tr><th colspan="2">Typical research paper in humanities and composition courses </th> <th colspan="2">Typical engineering lab report</th></tr>
+                           <tr><td>Introduction </td> <td>Gets the reader’s attention and provides a specific and debatable thesis statement.</td> <td>Introduction </td> <td>Explains the lab topic and the objectives of
+                            the lab with relevant technical background.</td> </tr>
+                           <tr><td>Body</td> <td>Proves the thesis and move along a compelling trajectory from the introduction to the conclusion</td>
+                            <td>
+                                <table>
+                                    <tr class="defHeight"><td>Methods </td> </tr>
+                                    <tr class="defHeight"><td>Results</td> </tr>
+                                    <tr class="defHeight"><td>Discussion</td> </tr>
+                                </table>
+                            </td>
+                            <td>
+                                <table>
+                                    <tr class="defHeight"> <td >Details the experimentation methods used in
+                                        the lab.</td></tr>
+                                    <tr class="defHeight"> <td >Presents the lab data clearly and concisely
+                                        using tables and graphs as needed</td></tr>
+                                    <tr class="defHeight"> <td> Analyzes, interprets and evaluates the lab
+                                        results</td></tr>
+                                </table>
+                            </td></tr>
+                           <tr>   <td>Conclusion</td>  <td>Summarizes the argument and explains the significance of the argument.</td>  <td>Conclusion</td>  <td>Summarizes the key findings and their disciplinary significance to meet the lab objectives.</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="glossary">
+                    <h3><span>What is the content and organization of a typical engineering lab report?</span></h3>
+                    <div class="questionText">
+                        <p>No one report format fits all possible labs, but the most typical organization of engineering lab reports is Introduction-MethodResults-Discussion-Conclusion (IMRDC). In reports for lab experiments which have more than one part the methods-resultsdiscussion sections may be repeated as necessary.
+                        </p>
+                    </div>  
+                    <ol>
+                        <li> <h4>Introduction:</h4><p>States the objective of the report (what) and motivation (why) of the lab. States the lab’s hypothesis if any.
+                            Introduces relevant technical background, scientific theories and engineering principles. </p>
+                        </li>
+                        <li> <h4>Methods (Experimental Procedure):</h4><p>the art of persuasive writing.  “Persuasion” does not imply “exaggeration” or “bias”.</p></li>
+                        <li> <h4>Persuasive writing</h4><p>Provides a detailed description of what was done during the lab. Lists the materials,
+                            instruments and software (if any) used. Diagrams and/or photographs of the experimental setup can be included. Cites the
+                            lab manual or handout and other sources that describe the methods. After reading this section, the reader should be able to
+                            completely reproduce the experiment to verify the results. Details (list of equipment, etc.) may be in the body or as an
+                            attachment depending upon desired conciseness of the report.</p>
+                       </li>
+                       <li> <h4>Results:</h4><p>Reports the lab’s results. The lab results (raw and/or analyzed) should be presented in meaningful tables and/or
+                        graphs. (refer to Module F-4)</p></li>
+                        <li> <h4>Discussion: </h4><p>nterprets and contextualizes the lab results. If discrepancies exist, then possible reasons should be discussed.
+                            Possible sources of erroneous or unexpected may be discussed. Makes logical appeals using the data shown in the results
+                            (referring specifically to each table and figure by number) to lead the audience to the conclusion. (refer to Module F-4)</p></li>
+                        <li> <h4>Conclusion </h4><p>Briefly recaps the lab topic and objectives. Does not present new data. Provides a summary of and draws
+                            conclusions from the key findings made from the results and discussion sections. Descriptions of the key findings need to be
+                            a direct response to the lab objectives. May suggest improvements to the lab and further investigation/future work. (refer to
+                            Module I-2)</p></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer>
+
+    </footer>
+</html>
